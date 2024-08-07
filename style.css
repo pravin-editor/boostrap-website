@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100%;
+}
+.bold {
+
+    font-size: 25px;
+}
+
+li {
+    padding: 5px;
+
+}
+
+.nav-link {
+    font-size: 15px;
+
+    font-weight: bold;
+    color: grey;
+    border: 2px solid transparent;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+    transition: .1;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+span{
+font-weight: bold;
+color: rgb(85, 123, 7);
+}
+
+#about img{
+    width: 25rem;
+    height: 25rem;
+    margin-left: 5px;
+}
+   
+/* service */
+
+.card img{
+    height: 200px;
+    transition: 1s;
+    z-index: 0;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/* contact */
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.card{
+    z-index: -10;
+}
